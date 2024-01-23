@@ -1,0 +1,8 @@
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      581 B          82.3 kB
+├   /_app                                  0 B            81.8 kB
+└ ○ /404                                   297 B          82.1 kB
++ First Load JS shared by all              81.8 kB
+  ├ chunks/main-eaa1dc62d354a7d3.js        75.2 kB
+  ├ chunks/pages/_app-607a89963bed09f6.js  645 B
+  └ chunks/webpack-843e918a0dad214a.js     5.94 kB

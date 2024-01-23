@@ -3,11 +3,11 @@ import {lazy, useEffect, useState} from 'react'
 
 export default function Home() {
     const [Component,setComponent] = useState(null)
-    useEffect(()=>{
-        if(typeof window !== 'undefined') {
-             setComponent(lazy(() => import('remote/Button')))
-        }
-    },[])
+   // useEffect(()=>{
+  //      if(typeof window !== 'undefined') {
+  //           setComponent(lazy(() => import('remote/Button')))
+  //      }
+//},[])
   return (
     <div style={{ padding: '2%' }}>
       <h1>Next JS and React</h1>
